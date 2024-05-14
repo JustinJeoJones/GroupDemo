@@ -22,7 +22,7 @@ namespace GroupDemo
         }
         public static int Divider(int x, int y)
         {
-            return x % y;
+            return x / y;
         }
     }
 }

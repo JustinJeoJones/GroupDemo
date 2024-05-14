@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using GroupDemo;
+
+Console.WriteLine(Arithmetic.Adder(2,2));
+Console.WriteLine(Arithmetic.Subber(2, 2));
+Console.WriteLine(Arithmetic.Multiplier(2, 2));
+Console.WriteLine(Arithmetic.Divider(2, 2));
